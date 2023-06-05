@@ -6,7 +6,6 @@ function hasTargetSum(array, target) {
       modArray.splice(index, 1)
       if (modArray.includes(target - array[index])) {
         isThere = true
-        return true
       }
     }
   }
